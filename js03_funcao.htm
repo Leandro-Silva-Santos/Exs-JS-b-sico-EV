@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>js03_parseInt.htm - Somatória com Entrada de Dados por Formulário</title>
+	<meta http-equiv="Content-Type" content="text/html"; charset="iso-9959-1">
+	<meta http-equiv="Content-Type" content="text/html"; charset="utf-8">
+	<meta charset="utf-8">
+</head>
+
+<body>
+	<h3>Somatória de dois números inteiros</h3>
+
+	<form name="MeuFormulario" action=" " method="post">
+		Entre com o valor 1: <input type="text" name="f_n1"><p></p>
+		Entre com o valor 2: <input type="text" name="f_n2"><p></p>
+	<input type="button" name="btn_somar" value="Somar" onclick="soma()">
+	<input type="reset" name="btn_apagar" value="Apagar">
+	</form>
+
+	<script language="JavaScript">
+	<!--
+
+		var jsn1;
+		var jsn2;
+		var jssoma;
+
+		function soma() {
+
+			jsn1 = parseInt(document.MeuFormulario.f_n1.value);
+			jsn2 = parseInt(document.MeuFormulario.f_n2.value);
+
+			jssoma = jsn1 + jsn2;
+
+			window.alert('Resultado da soma = ' + jssoma.toString());
+		}
+
+	// -->	
+	</script>
+
+</body>
+</html>
